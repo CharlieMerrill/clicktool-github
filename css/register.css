@@ -1,0 +1,201 @@
+
+.reg-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-top: 20px;
+  overflow: hidden;
+  height: 700px;
+}
+
+.regbre {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: -10px;
+  padding: 10px;
+}
+
+.regbre img {
+  height: 50px;
+  margin: 5px;
+}
+
+.reg-container h1 {
+  color: #24537f;
+}
+
+.reg-container h3 {
+  color: #999999;
+}
+
+.reg-border {
+  border: 1px solid #E6E6E6;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 1px 1px 3px #F3F3F3;
+  width: 40vw;
+}
+
+#sign-in-form {
+  margin-top: -480px;
+}
+
+#reg-form1 {
+  text-align: left !important;
+}
+
+#reg-form1 h1 {
+  text-align: center !important;
+}
+
+#reg-form1 h3 {
+  text-align: center !important;
+}
+
+#reg-form2 {
+  margin-top: -430px;
+}
+
+#reg-form3 {
+  margin-top: -1050px;
+}
+
+#reg-form4 {
+  margin-top: -500px;
+}
+
+.reg-form div {
+  margin-top: 30px;
+}
+
+.reg-form .chckbx {
+  margin: 10px;
+}
+
+.reg-button {
+  width: 100%;
+  height: 50px;
+  background-color: #2cb8d1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -20px;
+  box-shadow: 1px 1px 2px #CCCCCC;
+}
+
+.reg-button:hover {
+  border: none;
+}
+
+.sign-in {
+  background-color: #24537f !important;
+  border: none;
+}
+
+.sign-in:hover {
+  background-color: #1D4164 !important;
+}
+
+.sign-in:active {
+  background-color: #173451 !important;
+  box-shadow: none;
+}
+
+.back {
+  background-color: #fd8a66 !important;
+  border: none;
+}
+
+.back:hover {
+  background-color: #E77E5F !important;
+}
+
+.back:active {
+  background-color: #C56C52 !important;
+  box-shadow: none;
+}
+
+.back3 {
+  background-color: #F2C442 !important;
+  border: none;
+}
+
+.back3:hover {
+  background-color: #E1B63E !important;
+}
+
+.back3:active {
+  background-color: #B69433 !important;
+  box-shadow: none;
+}
+
+.reg-button:active {
+  box-shadow: none;
+}
+
+.reg-active {
+  opacity: 1;
+  animation: activeReg 0.6s;
+  transform: translateX(0px);
+  -moz-transform: translateX(0px);
+  -webkit-transform: translateX(0px);
+  -o-transform: translateX(0px);
+  -ms-transform: translateX(0px);
+}
+
+.invisible {
+  opacity: 0;
+}
+
+.reg-hide {
+  animation: hideReg 0.6s;
+  opacity: 0;
+  transform: translateX(-300px);
+  -moz-transform: translateX(-300px);
+  -webkit-transform: translateX(-300px);
+  -o-transform: translateX(-300px);
+  -ms-transform: translateX(-300px);
+}
+
+.reg-image {
+  overflow:hidden;
+  margin-top: 80px;
+}
+
+.reg-image img {
+  height: 450px;
+  margin-top:-120px;
+  margin-right:-520px;
+}
+
+.reg-image2 {
+  overflow:hidden;
+  margin-top: 80px;
+}
+
+.reg-image2 img {
+  height: 450px;
+  margin-top:-50px;
+  margin-left:-520px;
+}
+
+@media only screen and (max-width: 767px) {
+  .reg-border {
+    width: 80vw;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  #reg-form2 {
+    margin-top: -500px;
+  } #reg-form3 {
+    margin-top: -1100px;
+  } #reg-form4 {
+    margin-top: -450px;
+  } #sign-in-form {
+    margin-top: -550px;
+  }
+}

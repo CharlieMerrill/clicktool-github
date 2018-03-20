@@ -1,0 +1,237 @@
+/* Dashboard */
+
+.member-container {
+  margin-top: -139px;
+  background-color: #F5F5F5;
+  min-height: 100vh;
+}
+
+.mem-box {
+  border: 1px solid #CCCCCC;
+  padding: 20px;
+  margin: 40px;
+  background-color: white;
+}
+
+.mem-box h3 {
+  color: #24537f;
+}
+
+.mem-box h1 {
+  color: #4C4C4C
+}
+
+.mem-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.lower-mem-section {
+  margin: 0 40px;
+}
+
+.mem-box-wide {
+  border: 1px solid #CCCCCC;
+  padding: 20px;
+  background-color: white;
+  font-size: 14px;
+}
+
+.mem-box-wide2 {
+  padding: 20px;
+  background-color: #fd8a66;
+  color: white;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.mem-form {
+  border: 1px solid #CCCCCC;
+  padding: 20px;
+  background-color: white;
+}
+
+.member-container h4 {
+  margin-bottom: 7px;
+}
+
+.mem-form div {
+  display: inline-block;
+}
+
+.mem-form input {
+  background-color: white;
+}
+
+.mem-form h5 {
+  margin-bottom: 5px;
+}
+
+.mem-button {
+  height: 60px;
+  width: 250px;
+  border-radius: 30px;
+  background-color: #fd8a66;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  box-shadow: 1px 1px 1px #CCCCCC;
+}
+
+.mem-reginr {
+  width: 100%;
+}
+
+.mem-button:hover {
+  cursor: pointer;
+  background-color: #DB785A;
+}
+
+.mem-button:active {
+  box-shadow: none;
+  background-color: #B9664D;
+}
+
+.mem-button h3 {
+  color: white;
+}
+
+.mem-button h4 {
+  color: white;
+  margin: auto;
+}
+
+/* Password */
+
+.password-form {
+  width: 60vw;
+  max-width: 1000px;
+  border-radius: 5px;
+  background-color: white;
+  margin: 30px auto;
+  padding: 20px;
+  box-shadow: 1px 1px 3px 1px #CCCCCC;
+  text-align: center;
+}
+
+/* Transactions */
+
+.member-container table {
+  width: 80vw;
+  max-width: 1400px;
+  margin: 40px auto;
+}
+
+.member-container th {
+  background-color: #24537f;
+  color: white;
+  padding: 5px;
+}
+
+.member-container td {
+  padding: 5px;
+}
+
+.member-container tr {
+  border: 1px solid #CCCCCC;
+}
+
+.status {
+  border-radius: 3px;
+  height: 30px;
+  width: 100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+}
+
+.pending {
+  background-color: #fbc943;
+}
+
+.accepted {
+  background-color: #2cb8d1;
+}
+
+.rejected {
+  background-color: #fd8a66;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #24537f;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  font-family: 'Montserrat', 'Arial';
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #317AC5;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  font-family: 'Montserrat', 'Arial';
+  display: none;
+}
+
+.accordion:after {
+  content: '\f067'; /* Unicode character for "plus" sign (+) */
+  font-family: FontAwesome;
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+    content: "\f068"; /* Unicode character for "minus" sign (-) */
+}
+
+.panel ul {
+  list-style-type: none;
+}
+
+.panel li {
+  border-bottom: 1px solid #CCCCCC;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 5px;
+}
+
+.panel li div {
+  margin: 5px;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 767px) {
+  .member-container {
+    margin-top: -33px;
+  } .mem-box {
+    margin: 20px auto;
+    width: 90vw;
+  } .lower-mem-section {
+    margin: 0 auto;
+    width: 90vw;
+  } .password-form {
+    width: 90vw;
+  }
+}
